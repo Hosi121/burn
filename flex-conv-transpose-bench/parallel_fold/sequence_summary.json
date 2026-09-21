@@ -1,0 +1,746 @@
+[
+  {
+    "case": "image_368_k2s2",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 300.364418,
+      "range_ms": [
+        237.679856,
+        567.787369
+      ],
+      "peak_bytes": 277414568,
+      "output_bytes": 138674176
+    },
+    "parallel_fold/tiled": {
+      "ms": 181.40836499999997,
+      "range_ms": [
+        169.528538,
+        401.627805
+      ],
+      "peak_bytes": 147129000,
+      "output_bytes": 138674176
+    },
+    "parallel_fold/preserved": {
+      "ms": 190.962443,
+      "range_ms": [
+        173.857688,
+        437.410916
+      ],
+      "peak_bytes": 147129000,
+      "output_bytes": 138674176
+    }
+  },
+  {
+    "case": "image_256_k4s2",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 162.569045,
+      "range_ms": [
+        105.80004899999999,
+        278.39075099999997
+      ],
+      "peak_bytes": 167838376,
+      "output_bytes": 33554432
+    },
+    "parallel_fold/tiled": {
+      "ms": 71.8506,
+      "range_ms": [
+        60.69762,
+        127.87852799999999
+      ],
+      "peak_bytes": 42009256,
+      "output_bytes": 33554432
+    },
+    "parallel_fold/preserved": {
+      "ms": 65.204998,
+      "range_ms": [
+        62.471575,
+        150.857956
+      ],
+      "peak_bytes": 42009256,
+      "output_bytes": 33554432
+    }
+  },
+  {
+    "case": "image_128_k3s1",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 41.076336999999995,
+      "range_ms": [
+        29.602456,
+        80.736351
+      ],
+      "peak_bytes": 42090664,
+      "output_bytes": 4194304
+    },
+    "parallel_fold/tiled": {
+      "ms": 16.163311,
+      "range_ms": [
+        15.788105,
+        34.763963000000004
+      ],
+      "peak_bytes": 12728488,
+      "output_bytes": 4194304
+    },
+    "parallel_fold/preserved": {
+      "ms": 16.370505,
+      "range_ms": [
+        15.375541,
+        32.370862
+      ],
+      "peak_bytes": 12728488,
+      "output_bytes": 4194304
+    }
+  },
+  {
+    "case": "volume_32_k3s2",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 51.154984,
+      "range_ms": [
+        38.195764,
+        103.784971
+      ],
+      "peak_bytes": 72653928,
+      "output_bytes": 16003008
+    },
+    "parallel_fold/tiled": {
+      "ms": 15.816233999999998,
+      "range_ms": [
+        13.730199,
+        29.626580999999998
+      ],
+      "peak_bytes": 24418536,
+      "output_bytes": 16003008
+    },
+    "parallel_fold/preserved": {
+      "ms": 15.093981,
+      "range_ms": [
+        14.692354,
+        29.047493
+      ],
+      "peak_bytes": 24418536,
+      "output_bytes": 16003008
+    }
+  },
+  {
+    "case": "volume_24_k2s2",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 7.098488,
+      "range_ms": [
+        6.4883,
+        14.600689
+      ],
+      "peak_bytes": 28344744,
+      "output_bytes": 14155776
+    },
+    "parallel_fold/tiled": {
+      "ms": 6.735322999999999,
+      "range_ms": [
+        6.598037000000001,
+        12.829985
+      ],
+      "peak_bytes": 22577576,
+      "output_bytes": 14155776
+    },
+    "parallel_fold/preserved": {
+      "ms": 7.51882,
+      "range_ms": [
+        6.3355,
+        11.921679
+      ],
+      "peak_bytes": 22577576,
+      "output_bytes": 14155776
+    }
+  },
+  {
+    "case": "audio_l8192_k16s8",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 7.043407,
+      "range_ms": [
+        6.36087,
+        15.504154
+      ],
+      "peak_bytes": 25232040,
+      "output_bytes": 8388608
+    },
+    "parallel_fold/tiled": {
+      "ms": 5.469265,
+      "range_ms": [
+        4.919182,
+        12.847045
+      ],
+      "peak_bytes": 16843432,
+      "output_bytes": 8388608
+    },
+    "parallel_fold/preserved": {
+      "ms": 5.507810999999999,
+      "range_ms": [
+        5.440407,
+        11.331109000000001
+      ],
+      "peak_bytes": 16843432,
+      "output_bytes": 8388608
+    }
+  },
+  {
+    "case": "audio_l2048_k8s4",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 1.855895,
+      "range_ms": [
+        1.505992,
+        4.062601
+      ],
+      "peak_bytes": 6423720,
+      "output_bytes": 2097152
+    },
+    "parallel_fold/tiled": {
+      "ms": 1.517941,
+      "range_ms": [
+        1.4718470000000001,
+        4.438231
+      ],
+      "peak_bytes": 6423720,
+      "output_bytes": 2097152
+    },
+    "parallel_fold/preserved": {
+      "ms": 1.583035,
+      "range_ms": [
+        1.4747009999999998,
+        3.706658
+      ],
+      "peak_bytes": 6423720,
+      "output_bytes": 2097152
+    }
+  },
+  {
+    "case": "groups4_batch2",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 22.172749,
+      "range_ms": [
+        19.839721,
+        42.554232
+      ],
+      "peak_bytes": 25168680,
+      "output_bytes": 16776192
+    },
+    "parallel_fold/tiled": {
+      "ms": 18.651248,
+      "range_ms": [
+        18.384695999999998,
+        44.745158
+      ],
+      "peak_bytes": 25168680,
+      "output_bytes": 16776192
+    },
+    "parallel_fold/preserved": {
+      "ms": 20.602987,
+      "range_ms": [
+        19.193862,
+        47.073972
+      ],
+      "peak_bytes": 25168680,
+      "output_bytes": 16776192
+    }
+  },
+  {
+    "case": "dilation2_tail",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 9.331688,
+      "range_ms": [
+        8.782151,
+        19.383399999999998
+      ],
+      "peak_bytes": 36164904,
+      "output_bytes": 10298016
+    },
+    "parallel_fold/tiled": {
+      "ms": 6.697466,
+      "range_ms": [
+        6.009262,
+        17.521946
+      ],
+      "peak_bytes": 18709224,
+      "output_bytes": 10298016
+    },
+    "parallel_fold/preserved": {
+      "ms": 7.28508,
+      "range_ms": [
+        6.606889000000001,
+        14.26961
+      ],
+      "peak_bytes": 18709224,
+      "output_bytes": 10298016
+    }
+  },
+  {
+    "case": "small_7_k4s2",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 0.096833,
+      "range_ms": [
+        0.0898,
+        0.28531
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "parallel_fold/tiled": {
+      "ms": 0.096788,
+      "range_ms": [
+        0.091858,
+        0.260063
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "parallel_fold/preserved": {
+      "ms": 0.171155,
+      "range_ms": [
+        0.097313,
+        0.238336
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    }
+  },
+  {
+    "case": "small_14_k4s2",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 0.5193939999999999,
+      "range_ms": [
+        0.493368,
+        1.682479
+      ],
+      "peak_bytes": 1635496,
+      "output_bytes": 200704
+    },
+    "parallel_fold/tiled": {
+      "ms": 0.54745,
+      "range_ms": [
+        0.498318,
+        1.367671
+      ],
+      "peak_bytes": 1635496,
+      "output_bytes": 200704
+    },
+    "parallel_fold/preserved": {
+      "ms": 0.564574,
+      "range_ms": [
+        0.507689,
+        1.288095
+      ],
+      "peak_bytes": 1635496,
+      "output_bytes": 200704
+    }
+  },
+  {
+    "case": "depthwise_256",
+    "threads": 1,
+    "parallel_fold/base": {
+      "ms": 9.52638,
+      "range_ms": [
+        9.245851,
+        20.703767000000003
+      ],
+      "peak_bytes": 19071200,
+      "output_bytes": 16711744
+    },
+    "parallel_fold/tiled": {
+      "ms": 10.113144,
+      "range_ms": [
+        7.894075000000001,
+        18.663850999999998
+      ],
+      "peak_bytes": 19071200,
+      "output_bytes": 16711744
+    },
+    "parallel_fold/preserved": {
+      "ms": 9.684715,
+      "range_ms": [
+        9.234041,
+        19.555982999999998
+      ],
+      "peak_bytes": 19071200,
+      "output_bytes": 16711744
+    }
+  },
+  {
+    "case": "image_368_k2s2",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 203.602241,
+      "range_ms": [
+        175.127169,
+        217.347626
+      ],
+      "peak_bytes": 277414592,
+      "output_bytes": 138674176
+    },
+    "parallel_fold/tiled": {
+      "ms": 198.68878,
+      "range_ms": [
+        161.840864,
+        261.836323
+      ],
+      "peak_bytes": 147130520,
+      "output_bytes": 138674176
+    },
+    "parallel_fold/preserved": {
+      "ms": 95.115475,
+      "range_ms": [
+        91.100588,
+        194.799184
+      ],
+      "peak_bytes": 147129024,
+      "output_bytes": 138674176
+    }
+  },
+  {
+    "case": "image_256_k4s2",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 91.60091,
+      "range_ms": [
+        70.96994,
+        99.738299
+      ],
+      "peak_bytes": 167838400,
+      "output_bytes": 33554432
+    },
+    "parallel_fold/tiled": {
+      "ms": 68.978123,
+      "range_ms": [
+        58.715458999999996,
+        98.917402
+      ],
+      "peak_bytes": 42009280,
+      "output_bytes": 33554432
+    },
+    "parallel_fold/preserved": {
+      "ms": 31.446681999999996,
+      "range_ms": [
+        29.249365,
+        70.32057499999999
+      ],
+      "peak_bytes": 42009280,
+      "output_bytes": 33554432
+    }
+  },
+  {
+    "case": "image_128_k3s1",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 17.524656999999998,
+      "range_ms": [
+        16.041868,
+        18.074232
+      ],
+      "peak_bytes": 42090688,
+      "output_bytes": 4194304
+    },
+    "parallel_fold/tiled": {
+      "ms": 11.043315999999999,
+      "range_ms": [
+        10.428302,
+        16.087081
+      ],
+      "peak_bytes": 12730008,
+      "output_bytes": 4194304
+    },
+    "parallel_fold/preserved": {
+      "ms": 5.563428,
+      "range_ms": [
+        5.475168,
+        13.7729
+      ],
+      "peak_bytes": 12728512,
+      "output_bytes": 4194304
+    }
+  },
+  {
+    "case": "volume_32_k3s2",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 25.278521,
+      "range_ms": [
+        21.132649999999998,
+        30.398105
+      ],
+      "peak_bytes": 72653952,
+      "output_bytes": 16003008
+    },
+    "parallel_fold/tiled": {
+      "ms": 16.112973999999998,
+      "range_ms": [
+        13.9566,
+        22.578311
+      ],
+      "peak_bytes": 24420056,
+      "output_bytes": 16003008
+    },
+    "parallel_fold/preserved": {
+      "ms": 6.583554,
+      "range_ms": [
+        6.376491,
+        16.790048
+      ],
+      "peak_bytes": 24418560,
+      "output_bytes": 16003008
+    }
+  },
+  {
+    "case": "volume_24_k2s2",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 5.938784,
+      "range_ms": [
+        5.841379,
+        6.414735
+      ],
+      "peak_bytes": 28346264,
+      "output_bytes": 14155776
+    },
+    "parallel_fold/tiled": {
+      "ms": 6.136546,
+      "range_ms": [
+        5.099098,
+        9.402467
+      ],
+      "peak_bytes": 22577600,
+      "output_bytes": 14155776
+    },
+    "parallel_fold/preserved": {
+      "ms": 3.0626770000000003,
+      "range_ms": [
+        2.73012,
+        7.089192000000001
+      ],
+      "peak_bytes": 22577600,
+      "output_bytes": 14155776
+    }
+  },
+  {
+    "case": "audio_l8192_k16s8",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 5.636656,
+      "range_ms": [
+        5.311103,
+        6.37908
+      ],
+      "peak_bytes": 25233560,
+      "output_bytes": 8388608
+    },
+    "parallel_fold/tiled": {
+      "ms": 5.062995,
+      "range_ms": [
+        4.351065,
+        7.7542729999999995
+      ],
+      "peak_bytes": 16843456,
+      "output_bytes": 8388608
+    },
+    "parallel_fold/preserved": {
+      "ms": 2.485813,
+      "range_ms": [
+        2.257576,
+        6.3431429999999995
+      ],
+      "peak_bytes": 16843456,
+      "output_bytes": 8388608
+    }
+  },
+  {
+    "case": "audio_l2048_k8s4",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 1.347591,
+      "range_ms": [
+        1.28612,
+        1.5972
+      ],
+      "peak_bytes": 6423744,
+      "output_bytes": 2097152
+    },
+    "parallel_fold/tiled": {
+      "ms": 1.382514,
+      "range_ms": [
+        1.227676,
+        2.15424
+      ],
+      "peak_bytes": 6423744,
+      "output_bytes": 2097152
+    },
+    "parallel_fold/preserved": {
+      "ms": 0.784372,
+      "range_ms": [
+        0.7037869999999999,
+        1.92239
+      ],
+      "peak_bytes": 6423744,
+      "output_bytes": 2097152
+    }
+  },
+  {
+    "case": "groups4_batch2",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 7.37097,
+      "range_ms": [
+        6.903351000000001,
+        7.910545
+      ],
+      "peak_bytes": 50345696,
+      "output_bytes": 16776192
+    },
+    "parallel_fold/tiled": {
+      "ms": 7.2730690000000005,
+      "range_ms": [
+        7.008719,
+        11.628407000000001
+      ],
+      "peak_bytes": 50345696,
+      "output_bytes": 16776192
+    },
+    "parallel_fold/preserved": {
+      "ms": 7.328485,
+      "range_ms": [
+        7.136867,
+        15.870564
+      ],
+      "peak_bytes": 50345696,
+      "output_bytes": 16776192
+    }
+  },
+  {
+    "case": "dilation2_tail",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 7.527095,
+      "range_ms": [
+        7.483947000000001,
+        8.695435
+      ],
+      "peak_bytes": 36166424,
+      "output_bytes": 10298016
+    },
+    "parallel_fold/tiled": {
+      "ms": 7.396734,
+      "range_ms": [
+        6.468161,
+        11.897035
+      ],
+      "peak_bytes": 18710744,
+      "output_bytes": 10298016
+    },
+    "parallel_fold/preserved": {
+      "ms": 3.6459610000000002,
+      "range_ms": [
+        3.379422,
+        7.639371
+      ],
+      "peak_bytes": 18710744,
+      "output_bytes": 10298016
+    }
+  },
+  {
+    "case": "small_7_k4s2",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 0.106994,
+      "range_ms": [
+        0.094751,
+        0.150671
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "parallel_fold/tiled": {
+      "ms": 0.100239,
+      "range_ms": [
+        0.094517,
+        0.228724
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "parallel_fold/preserved": {
+      "ms": 0.11088400000000001,
+      "range_ms": [
+        0.101503,
+        0.266959
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    }
+  },
+  {
+    "case": "small_14_k4s2",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 0.6141770000000001,
+      "range_ms": [
+        0.570594,
+        0.720395
+      ],
+      "peak_bytes": 1637016,
+      "output_bytes": 200704
+    },
+    "parallel_fold/tiled": {
+      "ms": 0.60012,
+      "range_ms": [
+        0.335899,
+        0.793834
+      ],
+      "peak_bytes": 1635520,
+      "output_bytes": 200704
+    },
+    "parallel_fold/preserved": {
+      "ms": 0.444371,
+      "range_ms": [
+        0.348993,
+        0.964958
+      ],
+      "peak_bytes": 1635520,
+      "output_bytes": 200704
+    }
+  },
+  {
+    "case": "depthwise_256",
+    "threads": 4,
+    "parallel_fold/base": {
+      "ms": 3.660965,
+      "range_ms": [
+        3.369414,
+        4.1037
+      ],
+      "peak_bytes": 26149088,
+      "output_bytes": 16711744
+    },
+    "parallel_fold/tiled": {
+      "ms": 3.531239,
+      "range_ms": [
+        3.3267700000000002,
+        6.256331
+      ],
+      "peak_bytes": 26149088,
+      "output_bytes": 16711744
+    },
+    "parallel_fold/preserved": {
+      "ms": 3.636094,
+      "range_ms": [
+        3.256703,
+        7.706703
+      ],
+      "peak_bytes": 26149088,
+      "output_bytes": 16711744
+    }
+  }
+]

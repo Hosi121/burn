@@ -1,0 +1,44 @@
+[
+  {
+    "name": "run_checks",
+    "command": [
+      "cargo",
+      "run-checks"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 158.8734730700089
+  },
+  {
+    "name": "clippy_targets",
+    "command": [
+      "cargo",
+      "clippy",
+      "-p",
+      "burn-flex",
+      "--all-targets",
+      "--",
+      "--deny",
+      "warnings"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 3.4551877829944715
+  },
+  {
+    "name": "bench_check",
+    "command": [
+      "cargo",
+      "bench",
+      "-p",
+      "burn-backend-tests",
+      "--bench",
+      "conv_transpose_ops",
+      "--no-default-features",
+      "--features",
+      "std,flex-simd,flex-rayon",
+      "--",
+      "--test"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 94.47924321499886
+  }
+]

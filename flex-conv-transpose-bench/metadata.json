@@ -20,33 +20,50 @@
   "column_limit_bytes": 8388608,
   "benchmark_binary_sha256": {
     "baseline": "379845ca24e08574ba9a784127b5d41186a66cca630ee625d0af3b2c24f3e581",
-    "candidate": "d6c3f4e7d5e1ed30a5e561b39651f46ed4c5e405fa9f6421a2147f185eb7304e"
+    "tile_only": "d6c3f4e7d5e1ed30a5e561b39651f46ed4c5e405fa9f6421a2147f185eb7304e",
+    "candidate": "6c7cd593fa474a95616d6ddc6ecf2cdbe0520a9008c88fb66bdc2ea42ff6bbc5"
   },
   "probe_sha256": "7894b75c84b4c0410eae30dfb6ea72a48be0b6b49514c6240e3898f508303363",
   "output_bytes_checked": 261104288,
-  "lib_tests_passed": 412,
+  "lib_tests_passed": 415,
   "gnu_size": {
     "baseline": {
       "text": 1898382,
       "data": 25200,
       "bss": 3856
     },
-    "candidate": {
+    "tile_only": {
       "text": 1921350,
       "data": 25320,
       "bss": 1256
+    },
+    "candidate": {
+      "text": 1939886,
+      "data": 25368,
+      "bss": 3160
     }
   },
-  "candidate": "2a12122dd578b1959cbdf901811a89fd2ba8aba0",
+  "candidate": "99d11a0688d0662518942cbd13e8c14b5eee627c",
   "lib_tests_exit": 0,
   "bench_check_exit": 0,
-  "bench_cases": 17,
+  "bench_cases": 18,
   "clippy_all_targets_exit": 0,
   "git_diff_check_exit": 0,
   "check_log_sha256": {
-    "run_checks_final.log": "430285919115d4348058bbcd7aed774b71f2a8925c50f1af59309d806bea116d",
-    "lib_tests.log": "1ed5583a4c33952c95e15886663200afbe9949bbd4771923a114b69eb0044de6",
-    "bench_check.log": "ee0ae15e40b8cfba04dac905aa5f645599034f7457605f7fe6db1a99d1c39712",
-    "clippy_targets.log": "72b9f68f3011fc9c632727c61346d2618b6f00709ad276b4e269e78cefea303a"
-  }
+    "run_checks.log": "52c13d196ab218e86fa53d5aa73f5895536f0541da7d2524f5c9cf51e25222a1",
+    "lib_tests.log": "0717b2d6372d13a1125261a960e57a6b86da9821222c3003ba1b3dbc1094446c",
+    "bench_check.log": "d6d2ade490a87238d6f420865a61657ad5e26c73ff0a60c52b180e3c809bd591",
+    "clippy_targets.log": "f74bb8cb957fab03ed4448c87137542c3cccaf1256c9501c8b78bf28701cb2a8"
+  },
+  "tile_only": "2a12122dd578b1959cbdf901811a89fd2ba8aba0",
+  "measurement_files": {
+    "primary": "parallel_fold/final.json",
+    "primary_summary": "parallel_fold/final_summary.json",
+    "sequence_check": "parallel_fold/sequence.json",
+    "sequence_summary": "parallel_fold/sequence_summary.json"
+  },
+  "output_checks": "parallel_fold/outputs.json",
+  "checks": "parallel_fold/checks.tar.xz",
+  "comparison_order": "Five alternating runs for each case and thread count. Each process runs one case.",
+  "followup_checks": "parallel_fold/checks.json"
 }
