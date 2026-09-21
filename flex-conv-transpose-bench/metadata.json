@@ -1,0 +1,52 @@
+{
+  "base": "3a93fbfc0f6517c9165031f8b2fbbe8523ff5c29",
+  "issue": "https://github.com/tracel-ai/burn/issues/5758",
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "run_checks_exit": 0,
+  "run_checks_passed": 3994,
+  "run_checks_ignored": 43,
+  "affinity": {
+    "1 thread": "CPU 0",
+    "4 threads": "CPUs 0-3"
+  },
+  "features": "burn-flex default (std, simd, rayon)",
+  "profile": "release",
+  "cargo_env": {
+    "CARGO_BUILD_JOBS": "6",
+    "CARGO_INCREMENTAL": "0"
+  },
+  "cpu": "Intel Core Ultra 7 255H",
+  "column_limit_bytes": 8388608,
+  "benchmark_binary_sha256": {
+    "baseline": "379845ca24e08574ba9a784127b5d41186a66cca630ee625d0af3b2c24f3e581",
+    "candidate": "d6c3f4e7d5e1ed30a5e561b39651f46ed4c5e405fa9f6421a2147f185eb7304e"
+  },
+  "probe_sha256": "7894b75c84b4c0410eae30dfb6ea72a48be0b6b49514c6240e3898f508303363",
+  "output_bytes_checked": 261104288,
+  "lib_tests_passed": 412,
+  "gnu_size": {
+    "baseline": {
+      "text": 1898382,
+      "data": 25200,
+      "bss": 3856
+    },
+    "candidate": {
+      "text": 1921350,
+      "data": 25320,
+      "bss": 1256
+    }
+  },
+  "candidate": "2a12122dd578b1959cbdf901811a89fd2ba8aba0",
+  "lib_tests_exit": 0,
+  "bench_check_exit": 0,
+  "bench_cases": 17,
+  "clippy_all_targets_exit": 0,
+  "git_diff_check_exit": 0,
+  "check_log_sha256": {
+    "run_checks_final.log": "430285919115d4348058bbcd7aed774b71f2a8925c50f1af59309d806bea116d",
+    "lib_tests.log": "1ed5583a4c33952c95e15886663200afbe9949bbd4771923a114b69eb0044de6",
+    "bench_check.log": "ee0ae15e40b8cfba04dac905aa5f645599034f7457605f7fe6db1a99d1c39712",
+    "clippy_targets.log": "72b9f68f3011fc9c632727c61346d2618b6f00709ad276b4e269e78cefea303a"
+  }
+}
