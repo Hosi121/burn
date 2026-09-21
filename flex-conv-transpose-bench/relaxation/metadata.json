@@ -1,0 +1,59 @@
+{
+  "previous": "99d11a0688d0662518942cbd13e8c14b5eee627c",
+  "candidate": "824853843aca885abe73b45b876211fb2f7df28f",
+  "main": "3a93fbfc0f6517c9165031f8b2fbbe8523ff5c29",
+  "cpu": "Intel Core Ultra 7 255H",
+  "platform": "Linux under WSL2",
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "features": "std,simd,rayon",
+  "profile": "release",
+  "threads": {
+    "f32": [
+      1,
+      2,
+      4,
+      6,
+      8
+    ],
+    "f16": [
+      2,
+      4
+    ],
+    "f64": [
+      2,
+      4
+    ]
+  },
+  "affinity": "Logical CPUs 0 through threads-1",
+  "cargo_env": {
+    "CARGO_BUILD_JOBS": "6",
+    "CARGO_INCREMENTAL": "0"
+  },
+  "source_sha256": "5e79a92f24c52b8466486c3d72f5c98ffea715f2de870054b7909966ffca70f7",
+  "probe_sha256": "153cc0f0e368a522a8692869ad82ba242b62025cd909702e8a62b75a4b4505e4",
+  "benchmark_binary_sha256": {
+    "baseline": "0a77c1046a8b8d52233a0c923b5541d9f605ee4bb6f78e1103166224c7cf26e2",
+    "candidate": "11c248db90c46a9c502f5ce60e082dc0a629694cf68ccfc21625fdba7cec6631",
+    "probe": "6699744ae94c23c1218a68f5fa8d605068e77251d2ff6de30178454b4316c731"
+  },
+  "run_checks_passed": 3994,
+  "run_checks_ignored": 43,
+  "release_lib_passed": 415,
+  "bench_cases": 19,
+  "output_cases": 18,
+  "output_bytes_checked": 7584768,
+  "check_log_sha256": {
+    "bench_check.log": "2fcbe307aca114b1bd96aaa1331f7f6dc6cd8db077ba1a6c702c8c6759863be4",
+    "build_base.log": "e4fa47285a5440dcf5b6e1e8f2b888dc6466b0b4a0dbc6934b6d06838d81423c",
+    "build_candidate.log": "c58cf0246761d964148b2affab32e73d8abda618c66e4fabe2d082ab8d5b3e11",
+    "clippy_targets.log": "5b959219b819fe347b12e29cc6dd567645d5a24ee5b390d6f930b411809e9d7e",
+    "confirm.log": "4cba6c546652893d3a2a4ce24ef6b7571b1461ff31c9b3842b2d776f27282e06",
+    "confirm6.log": "caf3977cc0e86a58248ccd476dafc203deaccfd86eac3459da8a04f1a4629837",
+    "diff_check.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lib_tests.log": "822b0e4072ddcf61f20a206206bbd30e18aab816cc3eb93929568187a98808f3",
+    "outputs.log": "d0ddfdb5c6e12c0bbf3253efda9b131f7198b4c9a11d9a7b7e091f1575936f55",
+    "production.log": "3aa2a831044bbac7cecfc2df0f907c3b5b9276a5282cf5a06e3539d3a1cc0241",
+    "production_types.log": "9456d4f921ab6bdf7250297e52014d4d15879fb38ebc47970119f37319128017",
+    "run_checks.log": "c52b6ed82c781e6afea3b17ad7ebc9bceaaa78c6caf4f1beff6256c9375ec53f"
+  }
+}

@@ -1,0 +1,1442 @@
+[
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work131072",
+    "baseline": {
+      "ms": 0.18465600000000001,
+      "range_ms": [
+        0.18087,
+        0.18965200000000002
+      ],
+      "peak_bytes": 672424,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.183568,
+      "range_ms": [
+        0.181236,
+        0.188627
+      ],
+      "peak_bytes": 672424,
+      "output_bytes": 131072
+    },
+    "change_percent": -0.5892037085174606
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work196608",
+    "baseline": {
+      "ms": 0.275534,
+      "range_ms": [
+        0.27298300000000003,
+        0.281732
+      ],
+      "peak_bytes": 1000104,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.274646,
+      "range_ms": [
+        0.26755700000000004,
+        0.279934
+      ],
+      "peak_bytes": 1006616,
+      "output_bytes": 196608
+    },
+    "change_percent": -0.3222832753852489
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work131072",
+    "baseline": {
+      "ms": 0.18266300000000002,
+      "range_ms": [
+        0.181477,
+        0.18476800000000002
+      ],
+      "peak_bytes": 721576,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.183313,
+      "range_ms": [
+        0.18207600000000002,
+        0.184321
+      ],
+      "peak_bytes": 721576,
+      "output_bytes": 131072
+    },
+    "change_percent": 0.35584655896376827
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work196608",
+    "baseline": {
+      "ms": 0.268135,
+      "range_ms": [
+        0.266699,
+        0.26895800000000003
+      ],
+      "peak_bytes": 1049256,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.270148,
+      "range_ms": [
+        0.267541,
+        0.27641200000000005
+      ],
+      "peak_bytes": 1049256,
+      "output_bytes": 196608
+    },
+    "change_percent": 0.7507412310962636
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "gemm_1d_co64_ci64_work245760",
+    "baseline": {
+      "ms": 0.33533999999999997,
+      "range_ms": [
+        0.33444399999999996,
+        0.341928
+      ],
+      "peak_bytes": 1361064,
+      "output_bytes": 245760
+    },
+    "candidate": {
+      "ms": 0.337776,
+      "range_ms": [
+        0.336517,
+        0.34643599999999997
+      ],
+      "peak_bytes": 1361064,
+      "output_bytes": 245760
+    },
+    "change_percent": 0.7264269100017984
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "gemm_2d_co64_ci128_side14",
+    "baseline": {
+      "ms": 0.5116660000000001,
+      "range_ms": [
+        0.503283,
+        0.512814
+      ],
+      "peak_bytes": 1635496,
+      "output_bytes": 200704
+    },
+    "candidate": {
+      "ms": 0.51454,
+      "range_ms": [
+        0.5089549999999999,
+        0.625618
+      ],
+      "peak_bytes": 1635496,
+      "output_bytes": 200704
+    },
+    "change_percent": 0.5616945429244735
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work65536",
+    "baseline": {
+      "ms": 0.042042,
+      "range_ms": [
+        0.041355,
+        0.04222
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "candidate": {
+      "ms": 0.041623,
+      "range_ms": [
+        0.041169,
+        0.041974000000000004
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "change_percent": -0.9966224251938605
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work131072",
+    "baseline": {
+      "ms": 0.085164,
+      "range_ms": [
+        0.084872,
+        0.08691099999999999
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.085397,
+      "range_ms": [
+        0.084933,
+        0.086059
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "change_percent": 0.2735897797191189
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "gemm_1d_co2_ci128_work196608",
+    "baseline": {
+      "ms": 0.655537,
+      "range_ms": [
+        0.652639,
+        0.6644939999999999
+      ],
+      "peak_bytes": 992424,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.649223,
+      "range_ms": [
+        0.64049,
+        0.651699
+      ],
+      "peak_bytes": 992424,
+      "output_bytes": 196608
+    },
+    "change_percent": -0.9631798052588958
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "threshold_2d_co64_side7",
+    "baseline": {
+      "ms": 0.187144,
+      "range_ms": [
+        0.186134,
+        0.19109399999999999
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "candidate": {
+      "ms": 0.190117,
+      "range_ms": [
+        0.185834,
+        0.19141000000000002
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "change_percent": 1.5886162527251724
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "groups_g4_l2048",
+    "baseline": {
+      "ms": 0.6256200000000001,
+      "range_ms": [
+        0.622402,
+        0.636623
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "candidate": {
+      "ms": 0.62911,
+      "range_ms": [
+        0.6207269999999999,
+        0.639713
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "change_percent": 0.557846616156743
+  },
+  {
+    "threads": 1,
+    "dtype": "f32",
+    "case": "groups_g8_l8192",
+    "baseline": {
+      "ms": 6.649651,
+      "range_ms": [
+        6.502605,
+        7.287411
+      ],
+      "peak_bytes": 8390952,
+      "output_bytes": 4194304
+    },
+    "candidate": {
+      "ms": 6.615556,
+      "range_ms": [
+        6.439409,
+        6.950283
+      ],
+      "peak_bytes": 8390952,
+      "output_bytes": 4194304
+    },
+    "change_percent": -0.5127336757974277
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work131072",
+    "baseline": {
+      "ms": 0.216583,
+      "range_ms": [
+        0.183499,
+        0.28133800000000003
+      ],
+      "peak_bytes": 672432,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.19724799999999998,
+      "range_ms": [
+        0.18872999999999998,
+        0.238013
+      ],
+      "peak_bytes": 672432,
+      "output_bytes": 131072
+    },
+    "change_percent": -8.927293462552466
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work196608",
+    "baseline": {
+      "ms": 0.33173600000000003,
+      "range_ms": [
+        0.261235,
+        0.398908
+      ],
+      "peak_bytes": 1000112,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.287978,
+      "range_ms": [
+        0.254286,
+        0.30700299999999997
+      ],
+      "peak_bytes": 1000112,
+      "output_bytes": 196608
+    },
+    "change_percent": -13.190609400245979
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work131072",
+    "baseline": {
+      "ms": 0.147155,
+      "range_ms": [
+        0.14152800000000001,
+        0.175961
+      ],
+      "peak_bytes": 721584,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.166694,
+      "range_ms": [
+        0.123227,
+        0.189737
+      ],
+      "peak_bytes": 721584,
+      "output_bytes": 131072
+    },
+    "change_percent": 13.277836295063029
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work196608",
+    "baseline": {
+      "ms": 0.253212,
+      "range_ms": [
+        0.232462,
+        0.30696599999999996
+      ],
+      "peak_bytes": 1049264,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.226739,
+      "range_ms": [
+        0.17588700000000002,
+        0.255229
+      ],
+      "peak_bytes": 1049264,
+      "output_bytes": 196608
+    },
+    "change_percent": -10.454875756283267
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "gemm_1d_co64_ci64_work245760",
+    "baseline": {
+      "ms": 0.381841,
+      "range_ms": [
+        0.284429,
+        0.450645
+      ],
+      "peak_bytes": 1361072,
+      "output_bytes": 245760
+    },
+    "candidate": {
+      "ms": 0.328825,
+      "range_ms": [
+        0.231148,
+        0.366972
+      ],
+      "peak_bytes": 1361072,
+      "output_bytes": 245760
+    },
+    "change_percent": -13.884313104145441
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "gemm_2d_co64_ci128_side14",
+    "baseline": {
+      "ms": 0.866046,
+      "range_ms": [
+        0.77819,
+        0.892706
+      ],
+      "peak_bytes": 1635504,
+      "output_bytes": 200704
+    },
+    "candidate": {
+      "ms": 0.412778,
+      "range_ms": [
+        0.374786,
+        0.44474
+      ],
+      "peak_bytes": 1635504,
+      "output_bytes": 200704
+    },
+    "change_percent": -52.33763564521977
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work65536",
+    "baseline": {
+      "ms": 0.041713,
+      "range_ms": [
+        0.041556,
+        0.042308000000000005
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "candidate": {
+      "ms": 0.04118,
+      "range_ms": [
+        0.040949,
+        0.04244
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "change_percent": -1.277779109630084
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work131072",
+    "baseline": {
+      "ms": 0.085503,
+      "range_ms": [
+        0.084495,
+        0.09296199999999999
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.085687,
+      "range_ms": [
+        0.084593,
+        0.09276300000000001
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "change_percent": 0.21519712758617526
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "gemm_1d_co2_ci128_work196608",
+    "baseline": {
+      "ms": 0.52002,
+      "range_ms": [
+        0.49107899999999993,
+        0.644342
+      ],
+      "peak_bytes": 992432,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.50648,
+      "range_ms": [
+        0.483824,
+        0.621809
+      ],
+      "peak_bytes": 992432,
+      "output_bytes": 196608
+    },
+    "change_percent": -2.603746009768859
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "threshold_2d_co64_side7",
+    "baseline": {
+      "ms": 0.189283,
+      "range_ms": [
+        0.187007,
+        0.194
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "candidate": {
+      "ms": 0.185222,
+      "range_ms": [
+        0.184997,
+        0.187384
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "change_percent": -2.1454647274187333
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "groups_g4_l2048",
+    "baseline": {
+      "ms": 0.6321159999999999,
+      "range_ms": [
+        0.623209,
+        0.634016
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "candidate": {
+      "ms": 0.627311,
+      "range_ms": [
+        0.620401,
+        0.644658
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "change_percent": -0.7601452897885719
+  },
+  {
+    "threads": 2,
+    "dtype": "f32",
+    "case": "groups_g8_l8192",
+    "baseline": {
+      "ms": 3.8476529999999998,
+      "range_ms": [
+        3.6845290000000004,
+        3.890484
+      ],
+      "peak_bytes": 12587440,
+      "output_bytes": 4194304
+    },
+    "candidate": {
+      "ms": 3.851416,
+      "range_ms": [
+        3.6416619999999997,
+        3.9423669999999995
+      ],
+      "peak_bytes": 12587440,
+      "output_bytes": 4194304
+    },
+    "change_percent": 0.09779987956295422
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work131072",
+    "baseline": {
+      "ms": 0.242507,
+      "range_ms": [
+        0.135299,
+        0.290445
+      ],
+      "peak_bytes": 672448,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.232219,
+      "range_ms": [
+        0.146875,
+        0.323177
+      ],
+      "peak_bytes": 672448,
+      "output_bytes": 131072
+    },
+    "change_percent": -4.242351767165475
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work196608",
+    "baseline": {
+      "ms": 0.35081,
+      "range_ms": [
+        0.244425,
+        0.49268399999999996
+      ],
+      "peak_bytes": 1000128,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.28159799999999996,
+      "range_ms": [
+        0.228708,
+        0.37378500000000003
+      ],
+      "peak_bytes": 1000128,
+      "output_bytes": 196608
+    },
+    "change_percent": -19.729198141444105
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work131072",
+    "baseline": {
+      "ms": 0.13805699999999999,
+      "range_ms": [
+        0.131465,
+        0.30353800000000003
+      ],
+      "peak_bytes": 721600,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.15148599999999998,
+      "range_ms": [
+        0.104091,
+        0.229721
+      ],
+      "peak_bytes": 721600,
+      "output_bytes": 131072
+    },
+    "change_percent": 9.727141687853557
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work196608",
+    "baseline": {
+      "ms": 0.29180599999999995,
+      "range_ms": [
+        0.190095,
+        0.386756
+      ],
+      "peak_bytes": 1049280,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.206782,
+      "range_ms": [
+        0.149783,
+        0.24813500000000002
+      ],
+      "peak_bytes": 1049280,
+      "output_bytes": 196608
+    },
+    "change_percent": -29.137166473616027
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "gemm_1d_co64_ci64_work245760",
+    "baseline": {
+      "ms": 0.477053,
+      "range_ms": [
+        0.31310000000000004,
+        0.5638610000000001
+      ],
+      "peak_bytes": 1361088,
+      "output_bytes": 245760
+    },
+    "candidate": {
+      "ms": 0.406316,
+      "range_ms": [
+        0.287211,
+        0.435705
+      ],
+      "peak_bytes": 1361088,
+      "output_bytes": 245760
+    },
+    "change_percent": -14.827912202627381
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "gemm_2d_co64_ci128_side14",
+    "baseline": {
+      "ms": 0.8166840000000001,
+      "range_ms": [
+        0.782073,
+        0.89453
+      ],
+      "peak_bytes": 1635520,
+      "output_bytes": 200704
+    },
+    "candidate": {
+      "ms": 0.852408,
+      "range_ms": [
+        0.7173200000000001,
+        0.860702
+      ],
+      "peak_bytes": 1635520,
+      "output_bytes": 200704
+    },
+    "change_percent": 4.3742745051941645
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work65536",
+    "baseline": {
+      "ms": 0.042753,
+      "range_ms": [
+        0.04227,
+        0.043816
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "candidate": {
+      "ms": 0.042852999999999995,
+      "range_ms": [
+        0.042634,
+        0.043659
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "change_percent": 0.23390171449955144
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work131072",
+    "baseline": {
+      "ms": 0.08638,
+      "range_ms": [
+        0.085891,
+        0.086754
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.086851,
+      "range_ms": [
+        0.08601,
+        0.086944
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "change_percent": 0.5452651076638171
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "gemm_1d_co2_ci128_work196608",
+    "baseline": {
+      "ms": 0.597638,
+      "range_ms": [
+        0.390827,
+        0.6751320000000001
+      ],
+      "peak_bytes": 992448,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.550642,
+      "range_ms": [
+        0.449615,
+        0.731049
+      ],
+      "peak_bytes": 992448,
+      "output_bytes": 196608
+    },
+    "change_percent": -7.863623129720676
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "threshold_2d_co64_side7",
+    "baseline": {
+      "ms": 0.18909499999999999,
+      "range_ms": [
+        0.18671900000000002,
+        0.193942
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "candidate": {
+      "ms": 0.19020600000000001,
+      "range_ms": [
+        0.187393,
+        0.198787
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "change_percent": 0.5875353658214344
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "groups_g4_l2048",
+    "baseline": {
+      "ms": 0.607909,
+      "range_ms": [
+        0.601693,
+        0.613301
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "candidate": {
+      "ms": 0.6049920000000001,
+      "range_ms": [
+        0.598835,
+        0.612292
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "change_percent": -0.47984155523276284
+  },
+  {
+    "threads": 4,
+    "dtype": "f32",
+    "case": "groups_g8_l8192",
+    "baseline": {
+      "ms": 2.4006510000000003,
+      "range_ms": [
+        2.314083,
+        2.658041
+      ],
+      "peak_bytes": 20980416,
+      "output_bytes": 4194304
+    },
+    "candidate": {
+      "ms": 2.225216,
+      "range_ms": [
+        2.1843209999999997,
+        2.3270690000000003
+      ],
+      "peak_bytes": 20980416,
+      "output_bytes": 4194304
+    },
+    "change_percent": -7.30780942336059
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work131072",
+    "baseline": {
+      "ms": 0.263483,
+      "range_ms": [
+        0.25566,
+        0.300703
+      ],
+      "peak_bytes": 672464,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.263777,
+      "range_ms": [
+        0.260222,
+        0.289981
+      ],
+      "peak_bytes": 672464,
+      "output_bytes": 131072
+    },
+    "change_percent": 0.11158215141013894
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work196608",
+    "baseline": {
+      "ms": 0.31593000000000004,
+      "range_ms": [
+        0.301761,
+        0.317662
+      ],
+      "peak_bytes": 1000144,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.30959200000000003,
+      "range_ms": [
+        0.30385,
+        0.32106799999999996
+      ],
+      "peak_bytes": 1000144,
+      "output_bytes": 196608
+    },
+    "change_percent": -2.006140600765993
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work131072",
+    "baseline": {
+      "ms": 0.250645,
+      "range_ms": [
+        0.24498199999999998,
+        0.26838300000000004
+      ],
+      "peak_bytes": 721616,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.253298,
+      "range_ms": [
+        0.24847600000000003,
+        0.26351800000000003
+      ],
+      "peak_bytes": 721616,
+      "output_bytes": 131072
+    },
+    "change_percent": 1.0584691495940435
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work196608",
+    "baseline": {
+      "ms": 0.299649,
+      "range_ms": [
+        0.295951,
+        0.30345
+      ],
+      "peak_bytes": 1049296,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.273999,
+      "range_ms": [
+        0.264172,
+        0.276757
+      ],
+      "peak_bytes": 1049296,
+      "output_bytes": 196608
+    },
+    "change_percent": -8.560015217804828
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "gemm_1d_co64_ci64_work245760",
+    "baseline": {
+      "ms": 0.33853000000000005,
+      "range_ms": [
+        0.33525699999999997,
+        0.370672
+      ],
+      "peak_bytes": 1361104,
+      "output_bytes": 245760
+    },
+    "candidate": {
+      "ms": 0.287169,
+      "range_ms": [
+        0.284271,
+        0.308422
+      ],
+      "peak_bytes": 1361104,
+      "output_bytes": 245760
+    },
+    "change_percent": -15.171772073376077
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "gemm_2d_co64_ci128_side14",
+    "baseline": {
+      "ms": 0.36462,
+      "range_ms": [
+        0.361287,
+        0.384451
+      ],
+      "peak_bytes": 1635536,
+      "output_bytes": 200704
+    },
+    "candidate": {
+      "ms": 0.349114,
+      "range_ms": [
+        0.33804,
+        0.356506
+      ],
+      "peak_bytes": 1635536,
+      "output_bytes": 200704
+    },
+    "change_percent": -4.252646590971432
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work65536",
+    "baseline": {
+      "ms": 0.041161,
+      "range_ms": [
+        0.041090999999999996,
+        0.043183000000000006
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "candidate": {
+      "ms": 0.041858,
+      "range_ms": [
+        0.041238000000000004,
+        0.042227
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "change_percent": 1.6933505016884842
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work131072",
+    "baseline": {
+      "ms": 0.084583,
+      "range_ms": [
+        0.08403,
+        0.084993
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.084439,
+      "range_ms": [
+        0.08435100000000001,
+        0.085502
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "change_percent": -0.17024697634276942
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "gemm_1d_co2_ci128_work196608",
+    "baseline": {
+      "ms": 0.388089,
+      "range_ms": [
+        0.382846,
+        0.600095
+      ],
+      "peak_bytes": 992464,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.3989,
+      "range_ms": [
+        0.374398,
+        0.49870600000000004
+      ],
+      "peak_bytes": 992464,
+      "output_bytes": 196608
+    },
+    "change_percent": 2.785701218019576
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "threshold_2d_co64_side7",
+    "baseline": {
+      "ms": 0.186716,
+      "range_ms": [
+        0.183468,
+        0.19356500000000001
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "candidate": {
+      "ms": 0.18912700000000002,
+      "range_ms": [
+        0.184121,
+        0.190101
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "change_percent": 1.2912658797318066
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "groups_g4_l2048",
+    "baseline": {
+      "ms": 0.911088,
+      "range_ms": [
+        0.869132,
+        1.166271
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "candidate": {
+      "ms": 0.9172250000000001,
+      "range_ms": [
+        0.883985,
+        1.057998
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "change_percent": 0.6735902569235952
+  },
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "groups_g8_l8192",
+    "baseline": {
+      "ms": 2.1301240000000004,
+      "range_ms": [
+        2.0707299999999997,
+        2.3354410000000003
+      ],
+      "peak_bytes": 29373392,
+      "output_bytes": 4194304
+    },
+    "candidate": {
+      "ms": 2.214684,
+      "range_ms": [
+        2.044365,
+        2.27779
+      ],
+      "peak_bytes": 29373392,
+      "output_bytes": 4194304
+    },
+    "change_percent": 3.969721950459215
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work131072",
+    "baseline": {
+      "ms": 0.328766,
+      "range_ms": [
+        0.325179,
+        0.344966
+      ],
+      "peak_bytes": 672480,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.321875,
+      "range_ms": [
+        0.316306,
+        0.343233
+      ],
+      "peak_bytes": 672480,
+      "output_bytes": 131072
+    },
+    "change_percent": -2.0960196614005056
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "gemm_1d_co8_ci64_work196608",
+    "baseline": {
+      "ms": 0.40454599999999996,
+      "range_ms": [
+        0.39520799999999995,
+        0.41799
+      ],
+      "peak_bytes": 1000160,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.409336,
+      "range_ms": [
+        0.395915,
+        0.415842
+      ],
+      "peak_bytes": 1000160,
+      "output_bytes": 196608
+    },
+    "change_percent": 1.1840433473572887
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work131072",
+    "baseline": {
+      "ms": 0.310417,
+      "range_ms": [
+        0.289212,
+        0.332583
+      ],
+      "peak_bytes": 721624,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.309499,
+      "range_ms": [
+        0.300756,
+        0.37170299999999995
+      ],
+      "peak_bytes": 721624,
+      "output_bytes": 131072
+    },
+    "change_percent": -0.295731226060425
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci64_work196608",
+    "baseline": {
+      "ms": 0.37791399999999997,
+      "range_ms": [
+        0.375274,
+        0.422726
+      ],
+      "peak_bytes": 1049304,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.38067100000000004,
+      "range_ms": [
+        0.366919,
+        0.40494800000000003
+      ],
+      "peak_bytes": 1049312,
+      "output_bytes": 196608
+    },
+    "change_percent": 0.7295310573305125
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "gemm_1d_co64_ci64_work245760",
+    "baseline": {
+      "ms": 0.429276,
+      "range_ms": [
+        0.425057,
+        0.456376
+      ],
+      "peak_bytes": 1361120,
+      "output_bytes": 245760
+    },
+    "candidate": {
+      "ms": 0.425985,
+      "range_ms": [
+        0.414286,
+        0.44094300000000003
+      ],
+      "peak_bytes": 1361120,
+      "output_bytes": 245760
+    },
+    "change_percent": -0.7666396444245605
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "gemm_2d_co64_ci128_side14",
+    "baseline": {
+      "ms": 0.856536,
+      "range_ms": [
+        0.792505,
+        0.927147
+      ],
+      "peak_bytes": 1635552,
+      "output_bytes": 200704
+    },
+    "candidate": {
+      "ms": 0.8886700000000001,
+      "range_ms": [
+        0.870541,
+        0.915949
+      ],
+      "peak_bytes": 1635552,
+      "output_bytes": 200704
+    },
+    "change_percent": 3.751622815620137
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work65536",
+    "baseline": {
+      "ms": 0.041361,
+      "range_ms": [
+        0.041174,
+        0.041569999999999996
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "candidate": {
+      "ms": 0.041690000000000005,
+      "range_ms": [
+        0.040934,
+        0.042629999999999994
+      ],
+      "peak_bytes": 332072,
+      "output_bytes": 65536
+    },
+    "change_percent": 0.795435313459536
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "threshold_1d_co8_work131072",
+    "baseline": {
+      "ms": 0.087462,
+      "range_ms": [
+        0.083921,
+        0.094788
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "candidate": {
+      "ms": 0.086746,
+      "range_ms": [
+        0.084602,
+        0.09958
+      ],
+      "peak_bytes": 659752,
+      "output_bytes": 131072
+    },
+    "change_percent": -0.8186412384807107
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "gemm_1d_co2_ci128_work196608",
+    "baseline": {
+      "ms": 0.5596070000000001,
+      "range_ms": [
+        0.558208,
+        0.632235
+      ],
+      "peak_bytes": 992480,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.586708,
+      "range_ms": [
+        0.569438,
+        0.69023
+      ],
+      "peak_bytes": 992480,
+      "output_bytes": 196608
+    },
+    "change_percent": 4.842862937740233
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "threshold_2d_co64_side7",
+    "baseline": {
+      "ms": 0.186512,
+      "range_ms": [
+        0.185101,
+        0.189847
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "candidate": {
+      "ms": 0.185753,
+      "range_ms": [
+        0.18411100000000002,
+        0.189781
+      ],
+      "peak_bytes": 530084,
+      "output_bytes": 50176
+    },
+    "change_percent": -0.40694432529810864
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "groups_g4_l2048",
+    "baseline": {
+      "ms": 1.253814,
+      "range_ms": [
+        1.159164,
+        1.331287
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "candidate": {
+      "ms": 1.210701,
+      "range_ms": [
+        1.1582910000000002,
+        1.355796
+      ],
+      "peak_bytes": 1575208,
+      "output_bytes": 524288
+    },
+    "change_percent": -3.4385483014226947
+  },
+  {
+    "threads": 8,
+    "dtype": "f32",
+    "case": "groups_g8_l8192",
+    "baseline": {
+      "ms": 2.0863140000000002,
+      "range_ms": [
+        2.002708,
+        2.201633
+      ],
+      "peak_bytes": 37759816,
+      "output_bytes": 4194304
+    },
+    "candidate": {
+      "ms": 2.079613,
+      "range_ms": [
+        2.053773,
+        2.523291
+      ],
+      "peak_bytes": 37759816,
+      "output_bytes": 4194304
+    },
+    "change_percent": -0.32118846923330224
+  }
+]

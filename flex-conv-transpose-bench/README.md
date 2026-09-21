@@ -2,6 +2,8 @@
 
 This change reduces the column buffer and runs col2im across output channels. It applies to the shared 1D, 2D, and 3D implementation. The public API, arithmetic count, and GEMM kernels are unchanged.
 
+This report records the first two commits through `99d11a0`. The [work-limit study](relaxation/README.md) records the next commit, which also uses channel work for smaller buffers after parallel GEMM. The tables below retain their original revision.
+
 | Version | Commit |
 |---|---|
 | Main | `3a93fbfc0f6517c9165031f8b2fbbe8523ff5c29` |
@@ -27,11 +29,11 @@ For each batch/group, the column allocation changes from `Cout * K * N` elements
 
 ## Time
 
-A negative change means less time. All values are milliseconds. The last column compares the final version with the tile-only version.
+A negative change means less time. All values are milliseconds. The last column compares the version at `99d11a0` with the tile-only version.
 
 ### 1 thread
 
-| Case | Main | Tiles only | Final | Change from main | Change from tiles |
+| Case | Main | Tiles only | Tiles + channels | Change from main | Change from tiles |
 |---|---:|---:|---:|---:|---:|
 | image_368_k2s2 | 196.320 | 130.417 | 132.514 | -32.5% | +1.6% |
 | image_256_k4s2 | 91.498 | 48.888 | 51.427 | -43.8% | +5.2% |
@@ -48,7 +50,7 @@ A negative change means less time. All values are milliseconds. The last column 
 
 ### 4 threads
 
-| Case | Main | Tiles only | Final | Change from main | Change from tiles |
+| Case | Main | Tiles only | Tiles + channels | Change from main | Change from tiles |
 |---|---:|---:|---:|---:|---:|
 | image_368_k2s2 | 196.412 | 171.964 | 85.909 | -56.3% | -50.0% |
 | image_256_k4s2 | 79.318 | 64.769 | 32.580 | -58.9% | -49.7% |
@@ -67,7 +69,7 @@ A negative change means less time. All values are milliseconds. The last column 
 
 The four-thread peak values are below. The channel change keeps the same column allocation as the tile-only version. Small differences in the raw peaks can come from work buffers first used by a thread.
 
-| Case | Main peak MiB | Final peak MiB |
+| Case | Main peak MiB | `99d11a0` peak MiB |
 |---|---:|---:|
 | image_368_k2s2 | 264.56 | 140.31 |
 | image_256_k4s2 | 160.06 | 40.06 |

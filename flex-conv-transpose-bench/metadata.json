@@ -65,5 +65,14 @@
   "output_checks": "parallel_fold/outputs.json",
   "checks": "parallel_fold/checks.tar.xz",
   "comparison_order": "Five alternating runs for each case and thread count. Each process runs one case.",
-  "followup_checks": "parallel_fold/checks.json"
+  "followup_checks": "parallel_fold/checks.json",
+  "pull_request": "https://github.com/tracel-ai/burn/pull/5761",
+  "draft": false,
+  "ci": {
+    "head": "99d11a0688d0662518942cbd13e8c14b5eee627c",
+    "conclusion": "action_required",
+    "url": "https://github.com/tracel-ai/burn/actions/runs/35565556505"
+  },
+  "latest_candidate": "824853843aca885abe73b45b876211fb2f7df28f",
+  "work_limit_followup": "relaxation/metadata.json"
 }

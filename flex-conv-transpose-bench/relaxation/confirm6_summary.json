@@ -1,0 +1,26 @@
+[
+  {
+    "threads": 6,
+    "dtype": "f32",
+    "case": "gemm_1d_co32_ci512_work196608",
+    "baseline": {
+      "ms": 0.61651,
+      "range_ms": [
+        0.563423,
+        0.952833
+      ],
+      "peak_bytes": 1511632,
+      "output_bytes": 196608
+    },
+    "candidate": {
+      "ms": 0.6355595,
+      "range_ms": [
+        0.57682,
+        0.855329
+      ],
+      "peak_bytes": 1511632,
+      "output_bytes": 196608
+    },
+    "change_percent": 3.089893107978803
+  }
+]
